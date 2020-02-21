@@ -56,6 +56,9 @@ for (let i=0; i<person.hobbies.length; i++) {
     console.log(person.hobbies[i]);
 }
 
+// delete an Object property
+delete person.firstName;
+
 
 // PROPERTY ATTRIBUTES SUMMARY //
 // The Writable attribute defines whether the value can be changed from its initial value
