@@ -14,8 +14,11 @@ Object.defineProperty(car, 'fullInfo', {
         car.year = carParts[0];
         car.color = carParts[1];
         car.make = carParts[2];
-    }
+    },
+
+    enumerable: false;
 });
+
 
 car.fullInfo = '2017 gray Mazda';
 console.log(car.fullInfo);
