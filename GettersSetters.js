@@ -16,7 +16,7 @@ Object.defineProperty(car, 'fullInfo', {
         car.make = carParts[2];
     },
 
-    enumerable: false;
+    enumerable: false
 });
 
 
